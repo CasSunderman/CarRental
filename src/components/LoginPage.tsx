@@ -17,14 +17,8 @@ export const LoginPage = () => {
     setIsVerifyingLicense(true);
     
     // Redirect to SSI verification
-      const ssiVerificationUrl = "https://oauth.ssi.ver.id/authorization/request" +
-        "?code_challenge=MfBx5E5Fc1yZ1fCR37avYadByBGhU-M132kmzF8tsg0" +
-        "&code_challenge_method=S256" +
-        "&client_id=9619b0ac-45cb-4f53-b2db-074aff2e747b" +
-        "&redirect_uri=https%3A%2F%2Fcassunderman.github.io%2FCarRental%2Fdashboard" +
-        "&response_type=code" +
-        "&state=j0dZId7jcPQJX9U4CXuwH2Y96fMxe3omzK9BEMPnzUs" +
-        "&scope=disclosure";
+      const ssiVerificationUrl = "https://cassunderman.github.io/dashboard"
+;
 
     // Redirect to the SSI verification URL
     window.location.href = ssiVerificationUrl;
