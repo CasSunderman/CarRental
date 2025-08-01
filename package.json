@@ -1,7 +1,7 @@
 {
   "name": "carrental",
   "version": "0.1.0",
-  "homepage": "https://cassunderman.github.io/CarRental",
+  "homepage": "https://cassunderman.github.io",
   "private": true,
   "dependencies": {
     "@tailwindcss/forms": "^0.5.0",

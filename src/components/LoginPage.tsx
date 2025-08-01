@@ -17,14 +17,14 @@ export const LoginPage = () => {
     setIsVerifyingLicense(true);
     
     // Redirect to SSI verification
-    const ssiVerificationUrl = "https://oauth.ssi.ver.id/authorization/request" +
-      "?code_challenge=3WOZ70YTSNfKzOp7bWHQbO20Yh9CoijUTR0e4vaQNB0" +
-      "&code_challenge_method=S256" +
-      "&client_id=01c0a76b-2e20-41bd-9679-b155ef19749b" +
-      "&redirect_uri=localhost:3000/dashboard" +
-      "&response_type=code" +
-      "&state=6rGRPY6ta9yfrZg9k4WZ_KFsRxy_AH9KQnBjcrnSOZE" +
-      "&scope=disclosure";
+      const ssiVerificationUrl = "https://oauth.ssi.ver.id/authorization/request" +
+        "?code_challenge=MfBx5E5Fc1yZ1fCR37avYadByBGhU-M132kmzF8tsg0" +
+        "&code_challenge_method=S256" +
+        "&client_id=9619b0ac-45cb-4f53-b2db-074aff2e747b" +
+        "&redirect_uri=https%3A%2F%2Fcassunderman.github.io%2Fdashboard" +
+        "&response_type=code" +
+        "&state=j0dZId7jcPQJX9U4CXuwH2Y96fMxe3omzK9BEMPnzUs" +
+        "&scope=disclosure";
 
     // Redirect to the SSI verification URL
     window.location.href = ssiVerificationUrl;
