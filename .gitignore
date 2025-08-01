@@ -1,0 +1,12 @@
+# dependency folders
+node_modules/
+
+# local builds
+build/
+
+# env-files met geheime keys
+.env
+
+# editor/OS-rommel
+.DS_Store
+.idea/
